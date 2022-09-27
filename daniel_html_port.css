@@ -1,0 +1,117 @@
+header {
+    background: rgb(226, 191, 191);
+    padding: 20px 0;
+}
+
+.arte-cabecalho {
+    width: 253px;
+    margin-left: 150px;
+}
+
+
+.cabecalho {
+    position: relative;
+    margin: auto 0;
+
+}
+
+.cabecalho, h1, h2 {
+    display: inline-block;
+    
+}
+
+h2 {
+    vertical-align: top;
+    margin-top: 45px;
+    margin-left: 350px;
+
+}
+
+body {
+    background: rgb(247, 241, 241);
+}
+
+
+.caixa-01 h3, h4 {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.caixa-01, .caixa-02 {
+    box-sizing: border-box;
+    border: 2px black solid;
+    width: 300px;
+    text-align: justify;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 75px;
+    display: inline-block   ;
+    height: 350px;
+    vertical-align: top;
+    margin-right: 100px;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.caixa-01:hover, .caixa-02:hover, .caixa-01:hover, .caixa-02:hover {
+    color: blueviolet;
+    border: solid blueviolet 5px;
+
+}
+
+.caixa-01 {
+    margin-left: 330px;
+}
+
+.caixa-02{
+    padding: auto;
+}
+
+.habilidades {
+    padding-top: 15px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+
+.rodape {
+    margin-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(226, 191, 191);
+    padding-top: 30px;
+
+}
+
+.icone {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.icone:hover {
+    filter: contrast(50%);
+}
+
+.contato {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.conjunto-icones {
+    display: inline-block;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 35px;
+    padding-left: 405px;
+}
+
+
+
+
